@@ -2,12 +2,18 @@
 **Metric Choice**
 
 **Number of cookies:** (dmin=3000)  I chose this as an invariant metric because this metric will not change. The number of cookies to view the course overview page will be the same regardless of whether the cookie is allocated to the control or the experimental group. It doesn't make sense to use it as an evaluation metric because it will not be affected by what the Course Overview page looks like.   
-Number of user-ids: (dmin=50) I did not choose this metric as either an invariant or an evaluation metric because a person will not have a user-id unless they register for a course. Hence, it will not help in the experiment. 
+
+**Number of user-ids:** (dmin=50) I did not choose this metric as either an invariant or an evaluation metric because a person will not have a user-id unless they register for a course. Hence, it will not help in the experiment. 
+
 **Number of clicks:** (dmin=240) I chose this as an invariant metric because people should be as likely to click on the Start Free Trial button regardless of whether they are in the experiment or the control group. It doesn't make sense to make 
-**Click-through-probability:** (dmin=0.01) It is the number of unique cookies to click on the "Start Free Trial" button divided by the number of unique cookies to view the course overview page. This will make a good invariant metric because like Number of Clicks, the metric should be constant throughout both Experimental and Control groups. It will not, however, make a good evaluation metric because it is not subject to the screen that appears after the Start Free Trial button.  
-**Gross conversion:** (dmin= 0.01) I chose this metric as an evaluation metric because this metric will help us see whether asking how much time a student is able to devote as an effect on the number of students that enroll and if the chances of student success are higher in the long run. This metric is affected by the screen that appears after clicking the "Start Free Trial" button -- it does not stay constant throughout experimental and control groups. It makes sense to not treat this as an invariant metric. 
-**Retention:** (dmin=0.01) I did not choose this as an evaluation metric but it can be one as this metric will help us see if asking the students how much time they have to devote to the course sets more reasonable expectations and encourages them to continue the course after the 14-day period. 
-**Net conversion:** (dmin= 0.0075) This can be chosen as an evaluation metric as this metric doesn’t remain consistent and differs depending on whether it is in the control or the experiment group. 
+
+**Click-through-probability:** (dmin=0.01) It is the number of unique cookies to click on the "Start Free Trial" button divided by the number of unique cookies to view the course overview page. It choose it as an invariant metric because like Number of Clicks, the metric should be constant throughout both Experimental and Control groups. It will not, however, make a good evaluation metric because it is not subject to the screen that appears after the Start Free Trial button.  
+
+**Gross conversion:** (dmin= 0.01) I chose this metric as an evaluation metric because this metric will help us see whether asking how much time a student is able to devote as an effect on the number of students that enroll in the free trial. This metric is affected by the screen that appears after clicking the "Start Free Trial" button -- it does not stay constant throughout experimental and control groups. It makes sense to not treat this as an invariant metric. 
+
+**Retention:** (dmin=0.01) I did not choose this as an evaluation metric because the duration it takes to run the experiment becomes much larger as we see below. However, it can be one as this metric will help us see if asking the students how much time they have to devote to the course sets more reasonable expectations and encourages them to continue the course after the 14-day period. It cannot be chosen as an invariant metric because it does not remain unchanged between two groups.  
+
+**Net conversion:** (dmin= 0.0075) This is chosen as an evaluation metric as this metric doesn’t remain consistent and differs depending on whether it is in the control or the experiment group. It cannot be chosen as an invariant metric because it does not remain unchanged between both groups. 
 
 
 
@@ -103,6 +109,7 @@ The participants also have plenty of choices. There are a plethora of online edu
 |-----------------------------------------|--------------|-------------|-----------------|---------|
 | Number of Cookies                       | 0.4988       | 0.5012      | 0.5006          | Passed  |
 | Number of Clicks on “Start free trial”  | 0.4959       | 0.5041      | 0.50046         | Passed  |
+| Click Through Probability               | 0.0811       | 0.083       | 0.082           | Passed  |
 
 
 **Result Analysis**
